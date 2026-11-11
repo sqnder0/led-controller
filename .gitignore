@@ -1,0 +1,35 @@
+# --- KiCad ---
+*.lck
+*-backups/
+_restore_backup_*/
+.history/
+fp-info-cache
+*.kicad_prl
+*.bak
+*.bck
+*-bak
+*.tmp
+\#auto_saved_files#
+_autosave-*
+
+# --- Firmware builds (PlatformIO / Arduino / ESP-IDF / CMake) ---
+.pio/
+.vscode/.browse*
+build/
+cmake-build-*/
+sdkconfig.old
+*.o
+*.elf
+*.map
+
+# --- CAD temp files ---
+*.FCBak
+*.stl.tmp
+~$*
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
