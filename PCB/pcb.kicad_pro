@@ -576,7 +576,7 @@
       "netlist": "",
       "plot": "gerbers",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pcb.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

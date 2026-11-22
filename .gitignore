@@ -33,3 +33,7 @@ Thumbs.db
 *.swp
 *~
 .idea/
+
+# --- Secrets ---
+secrets.yaml
+.esphome/
