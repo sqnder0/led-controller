@@ -46,12 +46,34 @@ Built for Hack Club Fabricate.
 | `production/` | Gerbers and drill files, plus `gerbers.zip` |
 | `Firmware/` | ESPHome config (`led-controller.yaml`) |
 | `CAD/` | Case (FreeCAD source and STEP of the full assembly) |
-| `docs/` | Screenshots, wiring diagram |
+| `docs/` | Pictures used in this README |
 | `BOM.csv` | Bill of materials |
 
 ## Pictures
 
-Add these before submitting: full model render, PCB layout, schematic, wiring diagram (files go in `docs/`).
+### Case
+
+![Exploded view of the lid, board and case](docs/case-exploded.png)
+
+Exploded view: lid, board and case.
+
+![Cutaway of the case walls with the board inside](docs/case-cutaway.png)
+
+Case walls with the board inside, showing the openings for the barrel jack and the screw terminal.
+
+![Lid](docs/case-lid.png)
+
+The lid, with the rim that pushes into the case.
+
+### Schematic
+
+![Schematic](docs/schematic.png)
+
+### PCB layout
+
+![PCB layout](docs/pcb-layout.png)
+
+Top layer carries the 12 V trunk and the GND return, the bottom layer carries the signals and the ground pour.
 
 ## Bill of materials
 
@@ -94,3 +116,4 @@ The firmware is untested until the boards arrive.
 
 - SMD parts (AO3400A, SS34, 0805 resistors) are hand soldered. Economic assembly at JLCPCB is not available for 2-layer boards, and standard assembly costs more than the whole board.
 - The SuperMini, BH1750 and LD2410C sit in female headers, so they can be swapped.
+- The case is a two part print: a box with four screw posts for the board and a push-fit lid. It is mounted on the wall with double sided tape.
